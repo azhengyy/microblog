@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+    <h1>服务器发生了一点错误...</h1>
+    <p>bug日志已以邮件形式发送至我的邮箱，我会尽快修复！</p>
+    <p><a href="{{ url_for('main.index') }}">返回</a></p>
+{% endblock %}
